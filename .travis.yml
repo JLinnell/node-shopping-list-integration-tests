@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: HtlI6ZZhnlDP69Le8d1N6G69TFRkI+dLZc0NIW/XMI6HdWpR81cH3hbSRhdeudRphStwLlVfx1I2g3/Iu/OBrNka9U+1wFpjn0FHS01qDswqyolynO44hLyNfqU1Hia0Q7bKsRxQ2XnxlJGlDUgdjtZW42lBtTf4VZlSexqIUVNiB5QryUkxcaB0ICTy5YK+McNQ5r3R5Fzuk685XxZoyiDpVXPq+Mtixw++60Gb/qTj2l0iVrRimq6OKhE/mbVpzc3QECvyvS8PRkcRWIATSXgSRNEO0TDk3At0U9QC+L0nPNLl3tCvO9qvcNvNwMjCdbfTFke8G5S+wKseDGJ2oABgBtFM99bZsYuAuoTehWhg1RGu6oEwU1RLTeFvhTdD1Gm9WEgWXvQrYr2conX1J8ZJBI8sySKw6RCoDvpploXOjqckpusXWOCSh8hi/1HDiFoEfA7kTJOf2BltAM9HJpEXHs7oaOJPhVGNfwdesHrVURr0r3PIoDk/Th6tq17CXFqTPflfq38OxRLI0xqK1+H17N7n6o31PqIWxZ9Z09UPnZ7bxPqywzjDxQoRTWNs6iHcKAkMa9iGSqeV+mGQxia5pqPIqn6Afdk2Qi4b2hihbNlqGdreDzg04bSYNYSrbUr50QqrrQ/W/cM0avuJkuE2NHdhHRc8+hT8i7DG5R0=
+  app: mysterious-coast-37478
+  on:
+    repo: JLinnell/node-shopping-list-integration-tests
