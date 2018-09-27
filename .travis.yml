@@ -4,6 +4,6 @@ deploy:
   provider: heroku
   api_key:
     secure: RDHmKJVEmIHUQRrd7htQnW3ajmUF+GDas2+g6zkDJvQlRi5LDzKgrIA09ulXDjvy6HKj8FWixcAY2WivdSEEPkebF3Y1yT7jv3yZjXGy9TAdKrCCb01hJ7HVU7dt6vo67wJAXf31MWLJJPTm7aMxZjDWeo3n7Hn3vpBFMwA2Yh0MemuW487xwp0D5FZa55lPKXjOBt3RqdK30HWSPoQrbYeKuN4Hi6HgWdcFbeO2wGI7qQfrkRdHp+Kn9XAq3mcaJlFGozkawle94VHV2s+Un7obH/AyRBgoqV6+tsV2DayvmWw0k1lhzkSHxn3jCqnlxXC1t/MV+IPimY4V3QdczZrz9WejveVAo8p9dd1Pk/Fj4QX6jMvDFCs3xZTsLgHWhaHJDkox30qVVLpEHxMJNk4VMAUhGNf2yhZXdJwC31Y3B3UYEBH9Q+ylpHmmQ4pIeGE0+gFlhx1uXbt+FlN/BeAbPVl71+xPL7UrwnFZ9qzAMD0AYFTqkWuy3Scq16rWXgoDVWO7oIRa782hq/rC/fIrccaIeQ4zZJ14g8xLwmgeGzNE7lyQC3OHpRjUvCLvgVcTyuacZ6GbB5kmPyGZ/GKK+m7oPx09iybrsC3kTMlLIT5JpOma1fCi/LxumdujkIywfKIZlfwC0wF07LHSIIly7GCpLE/eDONFnZ7vETE=
-  app: node-shopping-list-integration-tests
-  on:
+  app: mysterious-coast-37478
+  on: 
     repo: JLinnell/node-shopping-list-integration-tests
